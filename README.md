@@ -56,7 +56,7 @@ The following options can be configured:
 | --- | --- | --- | --- | --- |
 | `content` | No | string | `label` | Content of the label. |
 | `contentType` | No | string | `text` | Specifies the content type of the label. Valid values are `header` or `text`. |
-| `labelType` | No | string | empty string | Specifies the logic we will apply as to the visibility of the label. Valid values are `pager` or `breadcrumbs`. If no value is provided, we will simply display the label. |
+| `labelType` | No | string | empty string | Specifies the logic we will apply as to the visibility of the label. Valid values are `pager` or `breadcrumb`. If no value is provided, we will simply display the label. |
 | `shouldBeLocalized` | No | boolean | `false` | Specifies whether to translate the label's value. |
 
 ## Extending

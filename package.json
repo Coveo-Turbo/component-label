@@ -1,6 +1,6 @@
 {
     "name": "@coveops/component-label",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "This component can be used to append a DOM-friendly label to a component that is missing it.",
     "main": "dist/index.js",
     "scripts": {
