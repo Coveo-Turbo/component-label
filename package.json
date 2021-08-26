@@ -1,0 +1,36 @@
+{
+    "name": "@coveops/component-label",
+    "version": "1.0.0",
+    "description": "This component can be used to append a DOM-friendly label to a component that is missing it.",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "coveops build ComponentLabel --template typescript",
+        "watch": "coveops build ComponentLabel --template typescript --watch",
+        "serve": "coveops serve",
+        "precompile": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Coveo-Turbo/component-label.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/Coveo-Turbo/component-label/issues"
+    },
+    "homepage": "https://github.com/Coveo-Turbo/component-label#readme",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "dependencies": {
+        "@coveops/localization-manager": "^1.0.1",
+        "@coveops/turbo-core": "^1.2.1",
+        "coveo-search-ui": "^2.10089.0"
+    },
+    "devDependencies": {
+        "@coveops/cli": "^0.17.0"
+    }
+}

@@ -1,0 +1,27 @@
+.CoveoComponentLabel {
+    background-color: #fff;
+
+    .component-label {
+        &.header {
+            font-weight: bold;
+        }
+
+        &.text {}
+
+        &.header,
+        &.text {
+            white-space: normal;
+        }
+    }
+}
+
+@media screen and (max-device-width: 768px) {
+    .component-label {
+
+        &.header,
+        &.text {
+            padding: 5px 15px;
+            margin: 0px;
+        }
+    }
+}
